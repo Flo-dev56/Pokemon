@@ -1,4 +1,4 @@
-public class PokemonFeu extends Pokemon{
+public class PokemonFeu extends Pokemon implements Attaquant{
     String attaque;
 
     public PokemonFeu(int niveau, String nom, String attaque) {

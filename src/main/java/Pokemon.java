@@ -1,4 +1,4 @@
-public abstract class Pokemon implements Attaquant {
+public abstract class Pokemon {
     String nom;
     int niveau;
 
@@ -9,7 +9,8 @@ public abstract class Pokemon implements Attaquant {
 
 
     public void afficherInfos() {
-
+        System.out.println( "nom : " + nom);
+        System.out.println( "niveau : " + niveau);
     }
 
 
