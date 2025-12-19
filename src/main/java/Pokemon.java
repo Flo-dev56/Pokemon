@@ -1,4 +1,4 @@
-public abstract class Pokemon {
+public abstract class Pokemon implements Attaquant{
     String nom;
     int niveau;
 
